@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React
+/build
+
+# macOS
+.DS_Store
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Editors
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*~
+
+# Misc
+.env
+.env.*
