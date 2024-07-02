@@ -1,5 +1,3 @@
-// src/components/Chatbots.js
-
 import React, { useState, useEffect } from 'react';
 import { fetchChatbots } from '../api';  // Adjust path as per your file structure
 
