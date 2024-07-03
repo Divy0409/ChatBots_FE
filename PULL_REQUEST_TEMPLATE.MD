@@ -7,9 +7,6 @@
 
 ## Description of Changes
 
-### Identify what team you are on
-* List the team here:
-
 ### Identify the task, story, or GitHub issue associated with this work
 * Identify the task/story/issue here:
 
