@@ -6,10 +6,6 @@
 5. Assign at least two reviewers to review your pull request by clicking the settings icon next to Reviewers
 
 ## Description of Changes
-Please document the following about this pull request:
-### Identify the organization for which you completed this work
-If this work is associated with a university course, please identify the university/course/semester (ex. MTU/MIS3200/Fall2023).
-* List the organizaiton here: 
 
 ### Identify what team you are on
 * List the team here:
