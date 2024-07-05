@@ -17,7 +17,7 @@
 ## Create a new branch:
 * You can always create a branch using git checkout -b  NEW_BRANCH_NAME command however here is an alternative method:
 * Step - 1 : Click on link below:
-* [Repository Link](https://github.com/Divy0409/Chatbots_BE)
+* [Repository Link](https://github.com/Divy0409/Chatbots_FE)
 * Step - 2 : Click on highlighted option (Branches) in below image:
 ![Branches](https://github.com/Divy0409/Chatbots_BE/blob/6f21dea35e2ffb8c97fe873339682456eb78d843/DOC_Images/branches.png)
 * Step - 3 : Now you will be redirected to branches page as shown in below image then select new branch option and there will be a popup asking you to create a new branch and always make sure that source branch is main (by default it always be main).
