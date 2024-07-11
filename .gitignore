@@ -23,3 +23,5 @@ coverage/
 # Misc
 .env
 .env.*
+
+package-lock.json
