@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",                                  // Specifies the target JavaScript language version
+    "lib": ["dom", "dom.iterable", "esnext"],         // Includes necessary libraries
+    "allowJs": true,                                  // Allows JavaScript files to be compiled
+    "skipLibCheck": true,                             // Skips type checking of declaration files
+    "esModuleInterop": true,                          // Ensures compatibility with ES modules
+    "allowSyntheticDefaultImports": true,             // Allows default imports from modules with no default export
+    "strict": true,                                   // Enables all strict type-checking options
+    "forceConsistentCasingInFileNames": true,         // Ensures consistent casing in import paths
+    "noFallthroughCasesInSwitch": true,               // Disallows fallthrough cases in switch statements
+    "module": "esnext",                               // Specifies the module code generation
+    "moduleResolution": "node",                       // Specifies how modules are resolved
+    "resolveJsonModule": true,                        // Allows importing JSON files
+    "isolatedModules": true,                          // Ensures each file can be safely transpiled without relying on other imports
+    "jsx": "react-jsx"                                // Enables JSX support with the new JSX transform
+  },
+  "include": ["src"]                                  // Includes all files in the src directory
+}

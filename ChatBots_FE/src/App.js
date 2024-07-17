@@ -1,42 +1,36 @@
-// src/App.js
-
-import React, { useEffect } from 'react';
-import { Routes, Route, useNavigationType, useLocation } from 'react-router-dom';
-import Home from './components/home';
-import Chatbots from './components/chatbots';
-import About from './components/about';
+import React from "react";
+import { Routes, Route, useNavigationType, useLocation } from "react-router-dom";
+import Home from "./components/Home";
+import Chatbots from "./components/chatbots";
+import About from "./components/about";
 
 function App() {
   const action = useNavigationType();
   const location = useLocation();
   const pathname = location.pathname;
 
-  useEffect(() => {
+  React.useEffect(() => {
     if (action !== "POP") {
       window.scrollTo(0, 0);
     }
   }, [action, pathname]);
 
-  useEffect(() => {
+  React.useEffect(() => {
     let title = "";
     let metaDescription = "";
 
     switch (pathname) {
       case "/":
         title = "Home";
-        metaDescription = "Welcome to the Chatbots Homepage";
+        metaDescription = "Welcome to the home page";
         break;
       case "/chatbots":
         title = "Chatbots";
-        metaDescription = "List of Chatbots";
+        metaDescription = "See all chatbots";
         break;
       case "/about":
-        title = "About Us";
+        title = "About";
         metaDescription = "Learn more about us";
-        break;
-      default:
-        title = "Chatbot Application";
-        metaDescription = "Chatbot Application";
         break;
     }
 
@@ -45,7 +39,9 @@ function App() {
     }
 
     if (metaDescription) {
-      const metaDescriptionTag = document.querySelector('head > meta[name="description"]');
+      const metaDescriptionTag = document.querySelector(
+        'head > meta[name="description"]'
+      );
       if (metaDescriptionTag) {
         metaDescriptionTag.content = metaDescription;
       }

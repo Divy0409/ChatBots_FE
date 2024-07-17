@@ -1,8 +1,15 @@
+// src/components/Chatbots.tsx
 import React, { useState, useEffect } from 'react';
-import { fetchChatbots } from '../api';  // Adjust path as per your file structure
+import { fetchChatbots } from '../api';
+import '../styles/main.css';
 
-const Chatbots = () => {
-  const [chatbots, setChatbots] = useState([]);
+interface Chatbot {
+  id: number;
+  name: string;
+}
+
+const Chatbots: React.FC = () => {
+  const [chatbots, setChatbots] = useState<Chatbot[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -30,4 +37,3 @@ const Chatbots = () => {
 };
 
 export default Chatbots;
-
